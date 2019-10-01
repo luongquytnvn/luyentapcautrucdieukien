@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai5</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt('Hãy nhập điểm bài kiểm tra của bạn:'));
+    let b = parseInt(prompt('Hãy nhập điểm thi giữa kỳ của bạn:'));
+    let c = parseInt(prompt('Hãy nhập điểm thi cuối kỳ của bạn:'));
+    let diem = (a + 2 * b + 3 * c) / 6;
+    if (diem >= 8.5) {
+        alert('Học lực giỏi')
+    } else if (diem >= 7.0) {
+        alert('Học lực khá')
+    } else if (diem >= 5) {
+        alert('Học lực trung bình')
+    } else {
+        alert('Học lực yếu')
+    }
+</script>
+</body>
+</html>
